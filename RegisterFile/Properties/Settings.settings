@@ -1,0 +1,9 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="RegisterFile.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="注册文件" Type="System.String" Scope="User">
+      <Value Profile="(Default)">注册文件</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

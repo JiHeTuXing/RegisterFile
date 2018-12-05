@@ -1,0 +1,7 @@
+F:\code\CSharp\RegisterFile\RegisterFile\bin\Debug\RegisterFile.exe
+F:\code\CSharp\RegisterFile\RegisterFile\bin\Debug\RegisterFile.pdb
+F:\code\CSharp\RegisterFile\RegisterFile\obj\x86\Debug\RegisterFile.RegisterFileForm.resources
+F:\code\CSharp\RegisterFile\RegisterFile\obj\x86\Debug\RegisterFile.Properties.Resources.resources
+F:\code\CSharp\RegisterFile\RegisterFile\obj\x86\Debug\RegisterFile.csproj.GenerateResource.Cache
+F:\code\CSharp\RegisterFile\RegisterFile\obj\x86\Debug\RegisterFile.exe
+F:\code\CSharp\RegisterFile\RegisterFile\obj\x86\Debug\RegisterFile.pdb

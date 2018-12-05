@@ -1,0 +1,13 @@
+F:\code\CSharp\RegisterFile\RegisterFile\bin\Release\RegisterFile.exe
+F:\code\CSharp\RegisterFile\RegisterFile\bin\Release\RegisterFile.pdb
+F:\code\CSharp\RegisterFile\RegisterFile\obj\x86\Release\RegisterFile.RegisterFileForm.resources
+F:\code\CSharp\RegisterFile\RegisterFile\obj\x86\Release\RegisterFile.Properties.Resources.resources
+F:\code\CSharp\RegisterFile\RegisterFile\obj\x86\Release\RegisterFile.csproj.GenerateResource.Cache
+F:\code\CSharp\RegisterFile\RegisterFile\obj\x86\Release\RegisterFile.exe
+F:\code\CSharp\RegisterFile\RegisterFile\obj\x86\Release\RegisterFile.pdb
+F:\code\CSharp\RegisterFile\RegisterFile\bin\Release\RegisterFile.exe.manifest
+F:\code\CSharp\RegisterFile\RegisterFile\bin\Release\RegisterFile.application
+F:\code\CSharp\RegisterFile\RegisterFile\obj\x86\Release\RegisterFile.TrustInfo.xml
+F:\code\CSharp\RegisterFile\RegisterFile\obj\x86\Release\RegisterFile.exe.manifest
+F:\code\CSharp\RegisterFile\RegisterFile\obj\x86\Release\RegisterFile.application
+F:\code\CSharp\RegisterFile\RegisterFile\bin\Release\RegisterFile.exe.config

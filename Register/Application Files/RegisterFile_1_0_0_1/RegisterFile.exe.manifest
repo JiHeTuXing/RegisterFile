@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="RegisterFile.exe" version="1.0.0.1" publicKeyToken="f59a1bd17575e187" language="neutral" processorArchitecture="x86" type="win32" />
+  <description asmv2:iconFile="Registry_file_128px_508870_easyicon.net.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="RegisterFile" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="RegisterFile.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet version="1" class="System.Security.NamedPermissionSet" Name="LocalIntranet" Description="Default rights given to applications on the local intranet" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC 清单选项
+            如果要更改 Windows 用户帐户控制级别，请用以下节点之一替换 
+            requestedExecutionLevel 节点。
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            指定 requestedExecutionLevel 节点将会禁用文件和注册表虚拟化。
+            如果要利用文件和注册表虚拟化实现向后 
+            兼容性，则删除 requestedExecutionLevel 节点。
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="RegisterFile.exe" size="146432">
+      <assemblyIdentity name="RegisterFile" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>snNb4iFBz/KsYU+WU62/garB2Cc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Registry_file_128px_508870_easyicon.net.ico" size="67646">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>juqqTyU522jXagj2WpJfQWb0GMg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- 此应用程序设计使用的所有 Windows 版本的列表。Windows 将会自动选择最兼容的环境。-->
+      <!-- 如果应用程序设计使用 Windows 7，请取消注释以下 supportedOS 节点-->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}"/>-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=limuzi" issuerKeyHash="8f045bc043415cce0c5e46d12ae8abc7d8cc02a3" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>dFscy1RpHTaBXuvpMm+TAL86IHw=</DigestValue></Reference></SignedInfo><SignatureValue>k9GW06SX5NQ6u3uBCLtEanrNHl3YsFk3LDNRN0l43z2dRjLdqdYz3yTzNZCLU0tEos7MjNc+2LPS1BU7WZhMghnRUtthd+K1EOeSelaURB6wKBeUsz3xEurFAughOpMdVFY6+WZiMkKwsjc+jIhGXwYBGbZoBF56OhzJ9KYsCo8=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>tE1lZRMyG8yy2Qz2CrEbcmLE7JsJHTjQdOQM1gvgucnb9Pe6JnN8Yy3tjWLyK/I4UDvK24OgAJh4H5FpbeOm0S6atcOhi752E1yEGjCUZnZ6tN+ZlVs/7k9rOKWuGzqNzqKCQJng10rl3kTQIE4DfB+2SVWkTKTf2UVZPA+/wbc=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="7c203abf00936f32e9eb5e81361d6954cb1c5b74" Description="" Url=""><as:assemblyIdentity name="RegisterFile.exe" version="1.0.0.1" publicKeyToken="f59a1bd17575e187" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=limuzi</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>HjGRHDK49uoN4QXYXZpjsqmcRWg=</DigestValue></Reference></SignedInfo><SignatureValue>iqzZlofEWkehi7lpsAjuf1GzHBA6cl2GfHzEUewPPeOlm/QaUoQEfaQbKSUyBj2r2g50CuINLufBRjtQFLsd4IeI2+c4Y84fkgBlm7JajPcZy79YguLya6F2QS12ZdfL6J35bURUrk89aJPRPOGVndkZ7QsFAG2SyEREkaXMdIo=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>tE1lZRMyG8yy2Qz2CrEbcmLE7JsJHTjQdOQM1gvgucnb9Pe6JnN8Yy3tjWLyK/I4UDvK24OgAJh4H5FpbeOm0S6atcOhi752E1yEGjCUZnZ6tN+ZlVs/7k9rOKWuGzqNzqKCQJng10rl3kTQIE4DfB+2SVWkTKTf2UVZPA+/wbc=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIICAjCCAWugAwIBAgIQfrYqUYrvsrFKmMAyrVRQqDANBgkqhkiG9w0BAQUFADARMQ8wDQYDVQQDEwZsaW11emkwHhcNMTcxMjMxMTYwMDAwWhcNMjMxMjMxMTYwMDAwWjARMQ8wDQYDVQQDEwZsaW11emkwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBALRNZWUTMhvMstkM9gqxG3JixOybCR040HTkDNYL4LnJ2/T3uiZzfGMt7Y1i8ivyOFA7ytuDoACYeB+RaW3jptEumrXDoYu+dhNchBowlGZ2erTfmZVbP+5Pazilrhs6jc6igkCZ4NdK5d5E0CBOA3wftklVpEyk39lFWTwPv8G3AgMBAAGjWzBZMBMGA1UdJQQMMAoGCCsGAQUFBwMDMEIGA1UdAQQ7MDmAEHOjrl9Iu8wc9vj2ghG9YWWhEzARMQ8wDQYDVQQDEwZsaW11emmCEH62KlGK77KxSpjAMq1UUKgwDQYJKoZIhvcNAQEFBQADgYEAHYavycKHrVpMihtMjIIs8lo31x1YEpPfzgGZU8nMou/nPzrvs8jrggK9PQ4n7Q5Ap6lDAyZqrtag2NCxTPaUNykiKH0ABzzNtaQh2eXHUsu9DQvw+4Z0YRWLwkkKxhvRsWAwEs+m5M7OGXJhtTxAZAiIxTph5xkszpdDTaAU3gw=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
